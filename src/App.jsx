@@ -1,6 +1,7 @@
 
 import './App.css'
 import Conter from './components/conter'
+import Jaydip from './components/Jaydip';
 // import { useContext } from 'react'
 // import { CounterContext } from './context/CounterContext'
 import { useCount } from './context/CounterContext';
@@ -19,6 +20,7 @@ const { count } = useCount()
       <Conter/>
       <Conter/>
       <Conter/>
+      <Jaydip/>
     </div>
     </>
   )
